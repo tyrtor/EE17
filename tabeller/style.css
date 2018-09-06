@@ -2,17 +2,31 @@ body {
     
 }
 table {
-    background-color: grey
+    background-color: grey;
+    padding: 20px;
+    border-spacing: 3px;
+    width: 1520px;
+}
+caption{
+    background-color: darkgray;
+    color: rgb(40, 30, 20);
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+    padding: 30px;
 }
 tr {
-
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
 th {
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    padding: 10px;
 }
 td {
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
 }
 img {
-    width: 150px;
+    width: 200px;
 }
