@@ -1,15 +1,24 @@
 body{
-
+padding: 50px;
 }
 table{
+font-family: sans-serif;
+border-collapse: collapse;
+border: 1px solid grey;
 
 }
 tr{
 
 }
 th{
-
+padding: 10px;
+border-bottom: 1px solid grey;
 }
 td{
-    
+    padding: 10px;
+    text-align: end;
+    border-bottom: 1px solid grey;
+}
+img{
+    width: 30px;
 }
