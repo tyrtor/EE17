@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+body {
+    background-image: url("./bilder/Earth.jpg");
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-attachment: fixed;
+}
+h1{
+color: #ffffff;
+font-family: 'Audiowide', cursive;
+font-size: 80px;
+width: 800px;
+text-align: center;
+margin:20px auto;
+background-color: darkblue;
+border: 1px solid #ffffff;
+padding: 20px;
+}
+h2{
+color: #ffffff;
+font-family: 'Audiowide', cursive;
+font-size: 30px;
+width: 600px;
+text-align: center;
+margin:20px auto;
+background-color: darkblue;
+border: 1px solid #ffffff;
+padding: 20px;
+}
