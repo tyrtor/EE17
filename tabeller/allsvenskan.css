@@ -1,18 +1,30 @@
 body{
+    font-family: sans-serif;
+    background: url("./bilder/allsvenskan-swirl.png");
+    background-repeat: no-repeat;
     
 }
 table{
 width: 600px;
+border: 1px solid #ccc;
+border-collapse: collapse;
+text-align: center;
+margin: 200px auto 0 auto;
+background-color: #ffffff
 }
 caption{
-
+background-color: #0b0b4e;
+color: white;
+border-radius: 5px 5px 0 0;
+padding: 10px;
 }
 tr:nth-child(even) {
 background-color: #cccccc;
+padding: 10px;
 }
 th{
-
+    padding: 10px;
 }
 td{
-
+    padding: 10px;
 }
