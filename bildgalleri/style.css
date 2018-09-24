@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Noto+Serif');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+/* sidans utseende*/
+body{
+    background: url("./bilder/640px-Rosa_tomentosa.jpg");
+    background-size: 3500px;
+    background-attachment: fixed;
+    color: #fff;
+}
+div.kontainer {
+    width: 800px;
+    padding: 30px;
+    background-color: #CC7214;
+    margin: 30px auto 0 auto;
+    border-radius: 10px;
+}
+h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 3px 3px 10px #000;
+}
+div.ros{
+    font-family: 'Noto Serif', serif;
+    background-color: #12B229;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+img{
+    width: 400px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #222;
+}
+p{
+   font-size: 18px;
+}
+.vanster{
+    float: left;
+    margin-right: 30px;
+}
+.hoger{
+    float: right;
+    margin-left: 30px;
+}
+hr{
+    clear: both;
+    visibility: hidden;
+}
+.textHoger {
+    text-align: right;
+}
