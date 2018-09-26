@@ -22,7 +22,7 @@ body{
 div.kontainer {
     width: 800px;
     padding: 30px;
-    background-color: #CC7214;
+    background: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%); 
     margin: 30px auto 0 auto;
     border-radius: 10px;
 }
@@ -34,12 +34,12 @@ h1{
 }
 div.ros{
     font-family: 'Noto Serif', serif;
-    background-color: #12B229;
+    background: linear-gradient(to bottom, #c9de96 0%,#8ab66b 44%,#398235 100%);
     padding: 30px;
     border-radius: 10px;
     margin-top: 30px;
 }
-img{
+img.ram{
     width: 400px;
     background: #fff;
     padding: 10px;
