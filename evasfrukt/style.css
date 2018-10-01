@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    border: solid 1px #000;
+    width: 800px;
+    margin: 10px auto 10px auto;
+
+}
+img{
+    padding: 20px 0 20px 0;
+}
+h1{
+    color: green;
+}
+p{
+
+}
+h3{
+    color: green;
+}
+img.floatbild{
+    float: right;
+    width: 170px;  
+}
