@@ -14,11 +14,13 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: lightgrey;
 }
 div{
     border: solid 1px #000;
-    width: 800px;
+    width: 820px;
     margin: 10px auto 10px auto;
+    padding: 10px;
 
 }
 img{
@@ -27,13 +29,22 @@ img{
 h1{
     color: green;
 }
-p{
-
+p.sidfot{
+    font-size: 12px;
+    padding: 30px 0 0 0;
+    
 }
 h3{
     color: green;
 }
 img.floatbild{
     float: right;
-    width: 170px;  
+    width: 150px; 
+    padding-bottom: 50px;
+}
+ul{
+    padding: 0 0 0 25px;
+}
+a{
+    color: red;
 }
