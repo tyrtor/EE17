@@ -23,6 +23,8 @@ function gissa() {
         /* skriv i andra input-rutan */
         svar = ' <p class="animated yipee">' + antal + ')' + gissning + 'Yippee! Du vann!</p > ';
         elementSvar.insertAdjacentHTML('beforeend', svar);
+
+
     }
 
     /* om gissning > talet, skriv ut "för högt" */
