@@ -44,13 +44,13 @@ function start() {
     'It takes more than good memory to have good memories.',
 
     'A thrilling time is in your immediate future.',
-,
+    
     'Your blessing is no more than being safe and sound for the whole lifetime.',
 
     'Plan for many pleasures ahead.',
 
     'The joyfulness of a man prolongeth his days.',
-,
+
     'Your everlasting patience will be rewarded sooner or later.',
 
    ' Make two grins grow where there was only a grouch before.',
