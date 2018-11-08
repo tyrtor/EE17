@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* sidans utseende */
+body{
+    background-color: black;
+}
+.kontainer{
+    background-color: black;
+    width: 800px;
+    margin: 10px auto 0 auto;
+    padding: 20px;
+
+}
+h1{
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    
+}
+.yta{
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.203);
+    height:700px;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+}
+i{
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+i:hover{
+    color: rgb(126, 126, 126);
+}
