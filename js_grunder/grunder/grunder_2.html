@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grunder i Javascript</title>
+</head>
+<body>
+    <h1>Grunder i Javascript</h1>
+    <p>Nu ska vi klicka på knappar.</p>
+    <button onclick="FragaAlder()">Fråga ålder</button>
+    <button onclick="VarBorDu()">fråga address</button>
+
+    <!-- Här börjar j   avascript -->
+    <script>
+        function FragaAlder() {
+            var alder = prompt('Hur gammal är du?');
+            console.log('Hej Emil, din ålder är ' + alder);
+
+            if (alder < 15) {
+                alert('Gå hem och lägg dig!');
+            }else{
+                if(alser<20){
+                alert('Tråkigt, be en kompis köpa ut!');
+                }else{
+                    alert('Jippi, Köp en öl till mig också!');
+                }
+            }
+        }
+
+        function VarBorDu() {
+            var address = prompt('Var bor du?')
+            console.log('Du bor på ' + address);
+
+        }
+    </script>
+</body>
+</html>
