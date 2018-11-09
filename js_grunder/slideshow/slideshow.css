@@ -50,3 +50,6 @@ i{
 i:hover{
     color: rgb(126, 126, 126);
 }
+.punkter{
+    display: grid;
+}
