@@ -1,6 +1,20 @@
+.kontainer{
+    width: 600px;
+    padding: 30px;
+    margin: 20px auto;
+    background: rgb(90, 88, 187);
+    text-align: center;
+}
+img{
+    padding: 10px;
+}
+h1{
+    color: #fff;
+}
+
 .slider {
     -webkit-appearance: none;
-    width: 59%;
+    width: 80%;
     height: 25px;
     background: #d3d3d3;
     outline: none;
