@@ -1,0 +1,34 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+h1{
+
+}
+#hp1{
+    margin-left: 350px;
+    display: inline;
+}
+#hp2{
+    margin-left: 50px;
+
+    display: inline;
+}
+img{
+    width: 400px;
+}
+button{
+    margin-left: 50px;
+}
