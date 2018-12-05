@@ -1,0 +1,43 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #000;
+    color: #000;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.kontainer {
+    width: 600px;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #FC9;
+}
+h1 {
+    background-color: #C60;
+    color: #FFF;
+    padding: 10px;
+}
+h1, h4, p, label {
+    margin-bottom: 10px;
+}
+#input {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+#input label {
+    float: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 1em;
+}
