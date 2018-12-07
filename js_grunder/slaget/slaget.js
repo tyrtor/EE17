@@ -14,8 +14,8 @@ function start() {
     const eKnapp = document.querySelector('#sla');
     const eVinnare = document.querySelector('#vinnare');
     const eRestart = document.querySelector('#restart');
-
     eKnapp.addEventListener('click', slag);
+    eRestart.addEventListener('click', startaOm);
 /*     eRestart.addEventListener('click', startaOm); */
 
     var hp1 = eHp1.value;
@@ -35,15 +35,24 @@ function start() {
         eHp2.value = hp2;
         
         
-        if (hp1 < 0 || hp2 < 0) {
-            if (hp1 < 0) {
+        if (hp1 < 1 || hp2 < 1) {
+            if (hp1 < 1) {
                 eVinnare.textContent = "Grattis röd!!";
             } else {
                 eVinnare.textContent = "Grattis blå!!";
             }
 
         }
-            
-            
+                
     }
+    function startaOm() {
+         eHp1.value = 100;
+        eHp2.value = 100; 
+        hp1 = 100;
+        hp2 = 100;
+        console.log(hp1, hp2);
+        eVinnare.textContent = " ";
+        
+       
+   }     
 }
