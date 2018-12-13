@@ -1,0 +1,45 @@
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #222;
+}
+
+.kontainer {
+    width: 500px;
+    padding: 20px;
+    margin: 50px auto;
+    background: #338;
+    font-family: sans-serif;
+    color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+label {
+    text-align: right;
+    align-self: center;
+}
+
+input, p, button {
+    background: #FFF;
+    height: 30px;
+    border-radius: 2px;
+    color: #222;
+}
+
+button {
+    height: 30px;
+    border: none;
+    cursor: pointer;
+}
