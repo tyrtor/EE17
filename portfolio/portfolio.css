@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+</style>
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -11,3 +14,101 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+
+/* hela layouten */
+body{
+
+}
+.kontainer{
+    background-color: aliceblue;
+
+}
+
+/* sidhuvud */
+header{
+    background-color: black;
+    padding: 20px;
+    margin: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+}
+header main h1{
+
+}
+header main h2{
+
+}
+header main nav{
+
+}
+header main a{
+
+}
+header main ul{
+
+}
+header main li{
+
+}
+/* sidans innehåll */
+main main{
+    background-color: aquamarine;
+}
+main .innehåll{
+
+}
+main article{
+
+}
+main h3{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+main figure{
+
+}
+main img{
+    height: 400px;
+    border-radius: 10px;
+}
+main figcaption{
+    font-family: 'Roboto', sans-serif;
+}
+main p{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+}
+main a{
+
+}
+
+/* sidabar */
+
+aside aside{
+
+}
+aside section{
+
+}
+aside h4{
+    font-family: 'Roboto', sans-serif;
+}
+aside ul{
+
+}
+aside li{
+
+}
+aside a{
+
+}
+
+/* sidfot */
+
+footer p{
+
+}
+
+
+
