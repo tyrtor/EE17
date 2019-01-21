@@ -1,6 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-</style>
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Poppins|Staatliches');
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -19,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul {
 body{
     background: url("./bilder/casey-horner-487085-unsplash.jpg");
     background-attachment: fixed;
-    
+    background-size: cover;
 }
 .kontainer{
     width: 960px;
@@ -28,27 +26,36 @@ body{
 
 /* sidhuvud */
 header{
-    color: rgb(255, 0, 0);
+    color: rgb(29, 139, 7);
     padding: 20px;
     margin: 0 30px 30px 30px;
-    font-family: 'Roboto', sans-serif;
-
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke: #fff 1px;
 }
 header h1{
     padding-bottom: 5px;
+    font-family: 'Staatliches', cursive;
+    font-size: 100px;
 }
 header h2{
-
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
 }
 header nav{
     border-radius: 5px;
-    background: linear-gradient(to bottom, #b3dced 0%,#78cae2 49%,#bce0ee 100%);
+    background: rgb(61, 170, 61);
     padding: 20px;
 }
 header a{
     text-decoration-line: none;
     padding: 5px;
     border-radius: 5px;
+    background:#fff;
+}
+header a:hover{
+    background-color: rgb(10, 153, 10);
+    color: rgb(0, 0, 0);
+    transition-duration: 500ms;
 }
 header ul{
 
@@ -56,25 +63,28 @@ header ul{
 header li{
     padding: 10px;
     display: inline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /* sidans innehåll */
 main{
-    border-radius: 10px;
     display: grid;
+    grid-gap: 20px;
     grid-template-columns: 650px 280px;
     justify-content: space-between;
+    grid-template-areas: 
+    "innehall sidebar";
 }
 main .innehall{
     background-color: white;
     border-radius: 10px;
+    grid-area: innehall;
 }
 main article{
 
 }
 main h3{
-    font-family: 'Roboto', sans-serif;
     margin: 20px;
+    font-family: 'Comfortaa', cursive;
 }
 main figure{
 
@@ -84,14 +94,14 @@ main img{
     border-radius: 10px;
 }
 main figcaption{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 main p{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 20px;
 }
 main a{
-
+    color: greenyellow;
 }
 
 /* sidabar */
@@ -101,12 +111,13 @@ aside{
     margin-left: 30px;
     border-radius: 20px;
     padding-top: 20px;
+    grid-area: sidebar;
 }
 aside section{
 
 }
 aside h4{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     margin-left: 25px;
     padding-top: 20px;
 
@@ -117,15 +128,17 @@ aside ul{
 aside li{
     margin-left: 25px;
     padding:5px;
+    list-style: none;
 
 }
 aside a{
     text-decoration-line: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* sidfot */
-
+footer{
+}
 footer p{
 
 }
