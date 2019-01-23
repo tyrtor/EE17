@@ -20,8 +20,9 @@ body{
     background-size: cover;
 }
 .kontainer{
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    padding: 20px;
+
 }
 
 /* sidhuvud */
@@ -67,12 +68,6 @@ header li{
 }
 /* sidans innehåll */
 main{
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 650px 280px;
-    justify-content: space-between;
-    grid-template-areas: 
-    "innehall sidebar";
 }
 main .innehall{
     background-color: white;
@@ -90,7 +85,7 @@ main figure{
 
 }
 main img{
-    height: 400px;
+    width: 100%;
     border-radius: 10px;
 }
 main figcaption{
@@ -142,6 +137,30 @@ footer{
 footer p{
 
 }
+ @media (min-width: 640px){
+    main{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 3fr 1fr;
+        justify-content: space-between;
+        grid-template-areas: 
+        "innehall sidebar";
+    }
+}
+@media (min-width: 960px){
+    .kontainer{
+        width: 960px;
+        margin: auto;
+    }
+    main{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 650px 280px;
+        justify-content: space-between;
+        grid-template-areas:
+        "innehall sidebar";
+    }
+} 
 
 
 
