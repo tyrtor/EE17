@@ -28,8 +28,7 @@ body{
 /* sidhuvud */
 header{
     color: rgb(29, 139, 7);
-    padding: 20px;
-    margin: 0 30px 30px 30px;
+    padding: 20px 0;
     font-family: 'Poppins', sans-serif;
     -webkit-text-stroke: #fff 1px;
 }
@@ -54,12 +53,9 @@ header a{
     background:#fff;
 }
 header a:hover{
-    background-color: rgb(10, 153, 10);
+    background: rgb(61, 170, 61);
     color: rgb(0, 0, 0);
-    transition-duration: 500ms;
-}
-header ul{
-
+    transition-duration: 300ms;
 }
 header li{
     padding: 10px;
@@ -67,22 +63,14 @@ header li{
     font-family: 'Poppins', sans-serif;
 }
 /* sidans innehåll */
-main{
-}
 main .innehall{
     background-color: white;
     border-radius: 10px;
     grid-area: innehall;
 }
-main article{
-
-}
 main h3{
     margin: 20px;
     font-family: 'Comfortaa', cursive;
-}
-main figure{
-
 }
 main img{
     width: 100%;
@@ -108,16 +96,10 @@ aside{
     padding-top: 20px;
     grid-area: sidebar;
 }
-aside section{
-
-}
 aside h4{
     font-family: 'Comfortaa', cursive;
     margin-left: 25px;
     padding-top: 20px;
-
-}
-aside ul{
 
 }
 aside li{
@@ -133,9 +115,8 @@ aside a{
 
 /* sidfot */
 footer{
-}
-footer p{
-
+    padding: 20px 0;
+    color: #fff;
 }
  @media (min-width: 640px){
     main{
@@ -151,6 +132,7 @@ footer p{
     .kontainer{
         width: 960px;
         margin: auto;
+        padding: 0;
     }
     main{
         display: grid;
