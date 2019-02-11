@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Hanalei+Fill|Righteous');
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+/* prettier-ignore */
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* prettier-ignore */
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgb(68, 63, 63);
+}
+header{
+    background-color: rgb(43, 230, 167);
+    padding-bottom: 20px;
+
+}
+header h1{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 50px;
+    margin: 10px;
+}
+header nav{
+
+}
+header ul {
+}
+header li{
+    font-family: 'Righteous', cursive;
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+header li a{
+    text-decoration-line: none;
+    color: #000;
+} header li a:hover{
+
+}
+main{
+    padding: 20px;
+}
+main h2{
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 35px;
+    margin: 20px;
+    text-align: center;
+}
+main figure{
+    width: 60%;
+    box-shadow: 0 0 3px #000;
+    margin: auto;
+}
+main figure img{
+    width: 100%;
+}
+main figure figcaption{
+    font-family: 'Righteous', cursive;
+}
+main p{
+    font-family: 'Comfortaa', cursive;
+    margin: 20px;
+}
+footer{
+    padding-top: 5px;
+}
+footer p{
+    font-family: 'Comfortaa', cursive;
+    margin: 20px;
+    font-size: 15px;
+
+}

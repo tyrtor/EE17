@@ -1,0 +1,42 @@
+.mars main{
+    background: #FA8578;
+}
+.mars header{
+    background: #FF0B0A;
+}
+.mars footer{
+    background: #FA8578;   
+}
+.mars header li a:hover{
+    color: #F7EDD4;
+    border-bottom: 3px solid #F7EDD4;
+}
+
+
+.titan main{
+    background: #FC9500;
+}
+.titan header{
+    background: #CA2207;
+}
+.titan footer{
+    background: #FC9500;
+}
+.titan header li a:hover{
+    color: #F0CEA9;
+    border-bottom: 3px solid #F0CEA9;
+}
+
+.jupiter main{
+    background: #3D5AA5;
+}
+.jupiter footer{
+    background: #3D5AA5;
+}
+.jupiter header{
+    background: #35966F;
+}
+.jupiter header li a:hover{
+    color: #FE8CE5;
+    border-bottom: 3px solid #FE8CE5;
+}
