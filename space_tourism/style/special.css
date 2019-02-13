@@ -1,3 +1,35 @@
+.wanderer video{
+    position: fixed;
+    z-index: -100;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.wanderer .container{
+    background: none;
+    box-shadow: none;
+}
+.wanderer header{
+    background: none;
+}
+.wanderer p, blockquote, h1, header li a{
+    color: #fff;
+}
+.wanderer header li a:hover{
+    border-bottom: 3px solid #fff;
+}
+.wanderer footer{
+    position: fixed;
+    bottom: 0;
+}
+.wanderer header li a.active{
+    border-bottom: 3px solid #fff;
+}
+
 .mars main{
     background: #FA8578;
 }
@@ -9,6 +41,18 @@
 }
 .mars header li a:hover{
     color: #F7EDD4;
+    border-bottom: 3px solid #F7EDD4;
+}
+.mars h1{
+    color: #F7EDD4;
+}
+.mars h2{
+    color: #F7EDD4;
+}
+.mars header li a{
+    color: #F7EDD4;
+}
+.mars header li a.active{
     border-bottom: 3px solid #F7EDD4;
 }
 
@@ -26,6 +70,18 @@
     color: #F0CEA9;
     border-bottom: 3px solid #F0CEA9;
 }
+.titan h1{
+    color: #F0CEA9;
+}
+.titan h2{
+    color: #F0CEA9;
+}
+.titan header li a{
+    color: #F0CEA9;
+}
+.titan header li a.active{
+    border-bottom: 3px solid #F0CEA9;
+}
 
 .jupiter main{
     background: #3D5AA5;
@@ -39,4 +95,42 @@
 .jupiter header li a:hover{
     color: #FE8CE5;
     border-bottom: 3px solid #FE8CE5;
+}
+.jupiter h1{
+    color: #FE8CE5;
+}
+.jupiter h2{
+    color: #FE8CE5;
+}
+.jupiter header li a{
+    color: #FE8CE5;
+}
+.jupiter header li a.active{
+    border-bottom: 3px solid #FE8CE5;
+}
+
+.europa main{
+    background: #9AECFE;
+}
+.europa header{
+    background: #1C3554
+}
+.europa footer{
+    background: #9AECFE;
+}
+.europa header li a:hover{
+    color: #ABCAF2;
+    border-bottom: 3px solid #ABCAF2;
+}
+.europa h1{
+    color:#ABCAF2;
+}
+.europa h2{
+    color: #041633;
+}
+.europa header li a{
+    color: #ABCAF2;
+}
+.europa header li a.active{
+    border-bottom: 3px solid #ABCAF2;
 }

@@ -31,11 +31,6 @@ header h1{
     font-size: 50px;
     margin: 10px;
 }
-header nav{
-
-}
-header ul {
-}
 header li{
     font-family: 'Righteous', cursive;
     display: inline;
@@ -45,8 +40,6 @@ header li{
 header li a{
     text-decoration-line: none;
     color: #000;
-} header li a:hover{
-
 }
 main{
     padding: 20px;
@@ -80,4 +73,13 @@ footer p{
     margin: 20px;
     font-size: 15px;
 
+}
+blockquote{
+    font-family: 'Comfortaa', cursive;
+}
+figure{
+    background: #fff;
+}
+figcaption{
+    padding-left: 15px;
 }
