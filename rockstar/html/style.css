@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+.container{
+    text-align: center;
+    background-color: darkgray;
+    width: 1300px;
+    margin: auto;
+}
+header{
+
+}
+h1{
+    padding-top: 25px;
+}
+nav{
+
+}
+ul{
+    background-color: darkred;
+    padding: 20px;
+}
+li{
+    display: inline;
+    padding: 15px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.aktiv{
+
+}
+main{
+
+}
+.konsert{
+    
+}
+img{
+
+}
+.information{
+
+}
+.tickets{
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.grind-item{
+
+}
+a .link-merch{
+    color: red;
+}
