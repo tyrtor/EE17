@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Chewy|Source+Sans+Pro|ZCOOL+KuaiLe');
 body{
     background-color: black;
 }
@@ -12,24 +13,48 @@ header{
 }
 h1{
     padding-top: 25px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+.logo{
+    padding-top: 25px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+h2{
+    font-family: 'Chewy', cursive;
+}
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.latest-news{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 30px;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
 }
 nav{
 
 }
 ul{
-    background-color: darkred;
+    background-color: rgb(100, 9, 9);
     padding: 20px;
 }
 li{
     display: inline;
-    padding: 15px;
-    background-color: red;
+    padding: 10px;
+    background-color: black;
     margin: 10px;
     border-radius: 10px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a:hover{
+    color:red;
 }
 .aktiv{
 
@@ -40,14 +65,14 @@ main{
 .konsert{
     
 }
-img{
-
+.merch-troja{
+    width: 150px;
 }
 .information{
 
 }
 .tickets{
-    
+    background-color: rgb(117, 121, 122);
 }
 .grid-container{
     display: grid;
@@ -58,4 +83,14 @@ img{
 }
 a .link-merch{
     color: red;
+}
+.contact1{
+    text-align: left;
+    margin: 10px;
+}
+.contact2{
+    text-align: center;
+}
+.contact3{
+    text-align: right;
 }
