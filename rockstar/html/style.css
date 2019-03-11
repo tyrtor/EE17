@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Chewy|Source+Sans+Pro|ZCOOL+KuaiLe');
 body{
-    background-color: black;
+    background-image: url("../bilder/rock-background.jpg")
 }
 .container{
     text-align: center;
@@ -21,6 +21,7 @@ h1{
 }
 h2{
     font-family: 'Chewy', cursive;
+    font-size: 40px;
 }
 h3{
     font-family: 'Source Sans Pro', sans-serif;
@@ -53,11 +54,15 @@ a{
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
 }
+tr:nth-child(even){
+    background-color: black;
+    color: white;
+}
 a:hover{
-    color:red;
+    color:darkred;
 }
 .aktiv{
-
+    text-decoration: underline;
 }
 main{
 
@@ -93,4 +98,23 @@ a .link-merch{
 }
 .contact3{
     text-align: right;
+}
+table{
+    margin: auto auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 20px;
+}
+.modell{
+    height: 250px;
+    margin: auto auto;
+}
+.om-oss{
+    text-align: left;
 }
