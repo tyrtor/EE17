@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <!--<![endif]-->
+<!-- Set the viewport width to device width for mobile -->
+<!-- Included CSS Files -->
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="stylesheets/ie.css">
+<![endif]--><script type="text/javascript" src="javascripts/modernizr.foundation.js"></script>
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>RockStar</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div class="container">
         <header>
+            <div class="row">
+            <div class="twelve columns">
+
                 <h1><a class="logo" href="index.html">SVEA VIKINGS</a></h1>
             <nav>
                 <ul>
@@ -19,10 +37,17 @@
                 <li><a href="sida5.html">OM OSS</a></li>
                 </ul>
             </nav>
+            </div>
+            </div>
         </header>
         <main>
+            <div class="row">
+            <div class="twelve columns">
+            <div class="row">
+            <div class="seven columns">
+                        
             <div class="konsert">
-                <img src="../bilder/konsert.jpg" alt="bild på en konsert">
+                    <img class="banner" src="../bilder/konsert1.jpg" alt="bild på en konsert">
             </div>
             <div class="tickets">
                 <h3 class="latest-news">Latest News</h3>
@@ -44,17 +69,25 @@
                     </div>
                 </div>
             </div>
-            <footer>
-                    <p class="contact1">
-                        Contact: <br>
-                        svea@vikings.se <br>
-                        070 123 66 63 <br>
-                    </p>
-                    <p class="contact2">
-                        
-                    </p>
-                </footer>
+        </div>
+        </div>
+        </div>
+        </div>
         </main>
+        <footer>
+        <div class="row">
+        <div class="twelve columns">
+                        
+            <p class="contact1">
+                Contact: svea@viking.com  | 070 123 66 63
+            </p>
+            <p class="contact2">
+                © 2016 SVEA VIKINGS AB B.V. ALL RIGHTS RESERVED.
+            </p>
+        </div>
+        </div>
+        </footer>
+        
     </div> 
 </body>
 </html>
