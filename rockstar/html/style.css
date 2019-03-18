@@ -80,13 +80,13 @@ main{
 .tickets{
     background-color: rgb(117, 121, 122);
 }
-.grid-container{
+/* .grid-container{
     display: grid;
     grid-template-columns: auto auto;
 }
 .grind-item{
 
-}
+}  */
 a .link-merch{
     color: red;
 }
@@ -125,33 +125,40 @@ footer{
     width: 100%;
 }
 /* Tabled Portrait */
-@media (min-width: 400px) {
+@media (max-width: 615px) {
     .container{
         width: 100%;
-        margin: auto;
-        padding: 0;
     }
-    main{
+/*     main{
         display: grid;
         grid-gap: 20px;
-        grid-template-columns: 3fr 0fr;
+        grid-template-columns: 3fr 1fr;
         justify-content: space-between;
-        grid-template-areas:
-        "innehall sidebar";
-    }
+    } */
 }
 
-@media (min-width: 640px) {
+@media (max-width: 850px) {
+
     .container{
-        width: 300%;
+        width: 100%;
     }
-    main{
+/*     main{
         display: grid;
         grid-gap: 20px;
         grid-template-columns: 1fr 0fr;
         justify-content: space-between;
-        grid-template-areas: 
-        "innehall sidebar";
+        text-align: center;
+    }  */
+    table{
+        font-size: 100%;
+    }
+    li{
+        font-size: 100%;
+    }
+    h1{
+        font-size: 200%;
+    }
+    a{
+        font-size: 100%;
     }
 }
-
