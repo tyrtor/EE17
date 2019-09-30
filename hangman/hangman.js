@@ -33,6 +33,7 @@ function start() {
         } else {
             console.log("bokstaven hittas inte i ordet");
             raknare++;
+
         }
         
         if (raknare==1) {
@@ -121,6 +122,7 @@ function start() {
         ctx.lineTo(350, 450);
         ctx.stroke(); 
         }
+        
 
     }
 }
